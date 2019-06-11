@@ -18,6 +18,10 @@
 
 `SSRFdata_normalization.m` 可将上海光源数据按如上规范整理归纳。 `APSdata_normalization.m` 将APS数据整理归纳。统一归纳后，可利用`reconstruction.py` 对现有全部CT数据进行三维重建分析。
 
+### 实验参数记录
+
+在各次实验存储路径下创建参数记录文本`log.txt`，记录内容：Exp001 Energy(keV) Pixel_size(mm) SSD(cm) Axes_center rat(delta/beta)
+
 ### 后续改进
 
 适用于CT图像的无损压缩技术
