@@ -16,6 +16,8 @@
 
 6. > datatype `uint16`,`uint12`,`uin8`; `chunksize`选择默认; `Deflate`选择0
 
+`SSRFdata_normalization.m` 可将上海光源数据按如上规范整理归纳。 `APSdata_normalization.m` 将APS数据整理归纳。全部统一至如上规范，可利用`reconstruction.py` 对现有全部CT数据进行三维重建分析。
+
 ### 后续改进计划
 
 专用于CT原始图像的高压缩比无损压缩技术。
