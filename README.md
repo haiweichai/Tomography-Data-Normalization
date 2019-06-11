@@ -14,9 +14,7 @@
 
 5. > 暗背底保存至`*.h5/exchange/data_dark`，维度顺序为`[Num,Z,X]`
 
-6. > datatype 保持原状，2BM实验2018年04月前、BL13W1实验均为`uint16`，BL09U实验均为`uint12`，2BM_201904为`uin8`
-
-7. > `chunksize`选择默认，`Deflate`选择0
+6. > datatype `uint16`,`uint12`,`uin8`; `chunksize`选择默认; `Deflate`选择0
 
 ### 后续改进计划
 
