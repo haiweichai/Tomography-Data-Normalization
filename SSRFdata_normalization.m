@@ -1,6 +1,9 @@
 %% This code is used to organize the data of SSRF into HDF5 files
 %  Then batch processing is possible, based on TomoPy [1].
+%  
+%  Created on Tue Jun 11 12:23:05 2019
 %  Author : hwchai_PIMS
+%  
 %  [1] Gursoy, Doga, et al. "TomoPy: a framework for the analysis of 
 %  synchrotron tomographic data." Journal of synchrotron radiation 21.5 
 %  (2014): 1188-1193.
@@ -16,9 +19,8 @@ remove_tree = 1;  % set to 1 if you want to remove old version data.
 % ------------------------------------------------------------------------
 dirOutput=dir(fullfile(filedir,'Exp*'));  data_num = size(dirOutput,1);
 
-% for num_ = 1:data_num,
-for num_ = 6:6,
-    
+for num_ = 1:data_num,
+
 filedir2 = [filedir,'\',dirOutput(num_).name,'\'];
 projlist = dir(fullfile(filedir2,[proj_name,'*.tif']));
 flatlist = dir(fullfile(filedir2,[flat_name,'*.tif']));
