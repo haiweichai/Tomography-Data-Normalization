@@ -20,7 +20,7 @@
 
 ### 其他
 
-1. > 实验参数记录 ：在各次实验存储路径下创建参数记录文本`log.txt`，记录内容按如下顺序：Exp001 Energy(keV) Pixel_size(mm) SSD(cm) Axes_center rat(delta/beta)
+1. > 实验参数记录 ：在各次实验存储路径下创建参数记录文本`log.txt`，记录内容按如下顺序：Exp001 Energy(keV) Pixel_size(um) SSD(mm) Axes_center rat(delta/beta)
 
 2. > 原位实验 ：实时采集的应力应变信息存储在各次实验存储路径下 `MTS_data\` 目录内
 
