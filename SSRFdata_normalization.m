@@ -1,4 +1,4 @@
-%  This code is used to organize the data of SSRF into HDF5 files
+%  This code is used to organize SSRF data into HDF5 files
 %  Then batch processing is possible, based on TomoPy [1].
 %  
 %  Created on Tue Jun 11 12:23:05 2019
